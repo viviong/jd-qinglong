@@ -20,9 +20,9 @@ docker-compose --version
 
 ```bash
 # 下载docker-compose.yml文件
-wget https://raw.githubusercontent.com/rubyangxg/jd-qinglong/master/docker-compose.yml
+wget https://raw.githubusercontent.com/viviong/jd-qinglong/master/docker-compose.yml
 # 下载配置文件模板
-wget https://raw.githubusercontent.com/rubyangxg/jd-qinglong/master/env.template.properties
+wget https://raw.githubusercontent.com/viviong/jd-qinglong/master/env.template.properties
 # 根据注释修改配置文件内容
 cp env.template.properties env.properties
 # 启动 -d表示后台静默启动
