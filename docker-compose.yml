@@ -13,7 +13,7 @@ services:
       - SE_NODE_MAX_SESSIONS=${MAX_SESSION}
       - START_XVFB=false
     ports:
-      - "5701:8080"
+      - "5703:8080"
     volumes:
       - ./data:/data
 
